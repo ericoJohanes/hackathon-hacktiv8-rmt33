@@ -14,8 +14,8 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="./assert/bmi_kosong.png" style="width: 80px; height: 80px; object-fit: contain; object-position: center center" alt="logo" />
-            BMI Calculator
+            <img src="./assert/logo.png" style="width: 80px; height: 80px; object-fit: contain; object-position: center center" alt="logo" />
+            Fox33 Medical
           </a>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
@@ -39,7 +39,6 @@
       <section>
         <div class="login-snip">
           <input id="tab-1" type="radio" name="tab" class="sign-in" checked /><label for="tab-1" class="tab">Login</label> <input id="tab-2" type="radio" name="tab" class="sign-up" /><label for="tab-2" class="tab">Sign Up</label>
-
           <div class="login-space">
             <div class="login">
               <div class="group"><label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Enter your username" /></div>
@@ -48,17 +47,15 @@
                 <input id="check" type="checkbox" class="check" checked /> <label for="check"><span class="icon"></span> Keep me Signed in</label>
               </div>
               <a href="index.html">
-                <div class="group"><input type="submit" class="button" value="Sign In" /></div>
+                <div class="group"><input type="submit" class="button" value="Sign In" id="signIn" /></div>
               </a>
               <div class="hr"></div>
               <div class="foot"><a href="#">Forgot Password?</a></div>
             </div>
             <div class="sign-up-form">
               <div class="group"><label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Buat Username" /></div>
-              <div class="group"><label for="user" class="label">Nama Instansi Kesehatan</label> <input id="user" type="text" class="input" placeholder="Isi Nama Instansi Kesehatan" /></div>
               <div class="group"><label for="user" class="label">No Telepon/HP</label> <input id="user" type="tel" class="input" placeholder="No Telepon/HP" pattern="^(^\+62\s?|^0)(\d{3,4}-?){2}\d{3,4}$" /></div>
               <div class="group"><label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Create your password" /></div>
-              <div class="group"><label for="pass" class="label">Repeat Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Repeat your password" /></div>
               <div class="group"><label for="pass" class="label">Email Address</label> <input id="pass" type="text" class="input" placeholder="Enter your email address" /></div>
               <div class="group">
                 <a href="#login">
@@ -70,6 +67,45 @@
           </div>
         </div>
       </section>
+      <section1>
+        <div class="berita">
+          <h3 style="text-align: center; padding: 40px">Testimoni</h3>
+          <div class="card-deck">
+            <div class="card">
+              <img src="./assert/malik.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Malik</h5>
+                <p class="card-text">Setelah menggunakan aplikasi web fox33 ternyata saya baru menyadari bahwa ada yang lebih rumit dari pada wanita, yaitu DOM.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Malik - CTO Tisla </small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assert/Erico_Topson_pointing_GG.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Erico</h5>
+                <p class="card-text">Setelah menggunakan aplikasi ini saya paham bahwa saya lebih cocok jadi CEO dari pada Programmer</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Erico - Founder CARIJODOH.com</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assert/aul.png" class="card-img-top" alt="aul foto" />
+              <div class="card-body">
+                <h5 class="card-title">Aul</h5>
+                <p class="card-text">Baru saya sadari setelah menggunakan aplikasi ini,.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Aul - karyawan Tisla, CARIJODOH </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section1>
     </main>
+    <script src="./page1.js"></script>
+    <!-- <script src="awal.js"></script> -->
   </body>
 </html>

@@ -2,10 +2,20 @@
    Login           
 -----------------------------------------*/
 
+.kanan {
+  float: right;
+}
+.berita {
+  margin-left: 5%;
+  width: 800px;
+  height: 680px;
+  padding: 10px;
+}
+
 .login-snip {
   margin-left: 70%;
   width: 30%;
-  height: 100%;
+  height: 680px;
   position: absolute;
   padding: 90px 70px 50px 70px;
   background: #2a9488a9;
@@ -77,7 +87,7 @@
 }
 
 .login-space .group input[data-type="password"] {
-  text-security: circle;
+  /* text-security: circle; */
   -webkit-text-security: circle;
 }
 
@@ -180,7 +190,6 @@ a {
 
 .card {
   width: 500px;
-  left: 100px;
 }
 
 ::placeholder {
