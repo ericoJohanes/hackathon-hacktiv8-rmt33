@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700;900&display=swap");
+* {
+  font-family: "Crimson Pro", serif;
+}
+.bg {
+  background-image: url("./assert/bg.jpg");
+  background-size: 1440px;
+}
+
+.navbar {
+  background: #40b0c3;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 1.5em;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 48px;
+}
+.navbar-brand:hover {
+  color: #f1c111;
+  font-size: 32px;
+}
+.navbar-collapse {
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  margin: 0 0.8em;
+  padding: 0.6em;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #f1c111;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.contact {
+  border: 2px solid #f1c111;
+  border-radius: 100px;
+  color: #f1c111;
+  font-family: "Plain-Bold", sans-serif;
+  padding: 0.6em 2em 0.8em 2em;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.contact:hover,
+.navbar-expand-lg .navbar-nav .nav-link.contact.active {
+  background: #f1c111;
+  color: white;
+}
+#signUp {
+  cursor: pointer;
+  color: blue;
+}
+
+.kotak {
+  background-color: hwb(174 53% 18%);
+  width: auto;
+  height: auto;
+  float: right;
+  margin: 0px;
+  border-radius: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.inputan {
+  margin: 20px;
+}
