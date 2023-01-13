@@ -105,7 +105,7 @@ btnSubmit.addEventListener("click", function (e) {
 
       gif(hitungBmi, degrees, categori);
 
-      //   music(data["status"]);
+      music(data["status"]);
 
       konsumsiGula.style.display = "flex";
     }
