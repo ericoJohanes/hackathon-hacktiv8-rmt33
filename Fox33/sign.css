@@ -195,3 +195,14 @@ a {
 ::placeholder {
   color: #4c48598b;
 }
+
+.alert {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  z-index: 100;
+  background-color: #22c55e;
+  transition: 0.5s;
+}
